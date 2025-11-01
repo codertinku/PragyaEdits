@@ -1,0 +1,4 @@
+whisper_model: small
+num_top_clips: 3
+scene_threshold: 30
+output_resolution: "1080x1920"

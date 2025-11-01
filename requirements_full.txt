@@ -1,0 +1,29 @@
+# Core AI & media
+torch
+openai-whisper
+moviepy==1.0.3
+imageio[ffmpeg]
+ffmpeg-python
+numpy<2.3.0
+tqdm
+PySceneDetect
+Pillow
+pydub
+pyyaml
+
+# CV / detection
+opencv-python
+ultralytics
+mediapipe
+
+# Web UI
+streamlit
+
+# Audio / analysis
+librosa
+soundfile
+
+# Learning
+scikit-learn
+pandas
+lightgbm
