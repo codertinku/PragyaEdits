@@ -2,3 +2,43 @@ whisper_model: small
 num_top_clips: 3
 scene_threshold: 30
 output_resolution: "1080x1920"
+
+# AI Enhancement Settings
+ai_enhancements:
+  # Video Enhancement
+  video_upscale_enabled: false
+  upscale_factor: 2
+  upscale_algorithm: "super_resolution"  # lanczos, bicubic, super_resolution
+  
+  color_enhance_enabled: true
+  color_enhancement_level: "medium"  # low, medium, high, auto
+  
+  frame_interpolation_enabled: false
+  target_fps: 60
+  
+  hdr_conversion_enabled: false
+  hdr_mode: "hlg"  # hlg, pq, hdr10
+  
+  # Background Music
+  background_music_enabled: false
+  music_style: "ambient"  # ambient, rhythmic, melodic
+  music_volume: 0.3
+  beat_sync_enabled: true
+  
+  # Smart Transitions
+  transitions_enabled: true
+  transition_style: "auto"  # auto, cinematic, smooth, dynamic
+  transition_duration: 0.5
+  scene_aware_transitions: true
+  
+  # Face Tracking
+  face_tracking_enabled: true
+  face_confidence_threshold: 0.5
+  smart_crop_enabled: false
+  crop_padding_factor: 1.5
+  multi_aspect_export: false
+  aspect_ratios:
+    - "9:16"
+    - "4:5"
+    - "1:1"
+    - "16:9"
